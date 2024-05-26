@@ -141,7 +141,7 @@ def locmap(new_df):
     for i in cluster_groups.values():
         i.add_to(m1)
     folium.LayerControl().add_to(m1)
-    st_data = st_folium(m1, width=10000, height=1000)
+    st_data = st_folium(m1, width=1000, height=1000)
 
 
 warnings.filterwarnings('ignore')
